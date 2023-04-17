@@ -1,0 +1,89 @@
+body{
+   text-align: center; 
+   font-family: 'Space Grotesk', sans-serif;
+   background: linear-gradient(#9eb3c2, #1c7293);
+   color: #f5f5f5;
+   text-shadow: 1px 1px 1px black;
+}
+
+#person{
+    width: 250px;
+    border-radius: 50%;
+    border: 8px solid#e1f4e3;
+}
+
+#title{
+    margin-top: 2px;
+}
+
+#age, #date{
+    background: gray;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: -8px;
+    margin-top: 24px;
+}
+
+.gift-section{
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.gift-title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.gift-hint{
+    margin-top: 0;
+}
+
+.gift-img{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-image: url("media/gift-cover.jpg");
+    background-size: cover;
+    border: 8px solid #f5f5f5;
+    border-radius: 6%;
+}
+
+#fainting:hover{
+    background-image: url(media/faint.gif);
+}
+
+#happy:hover{
+    background-image: url("media/happy.gif");
+}
+
+#genius:hover{
+    background-image: url(media/genius.gif);
+}
+
+#badass:hover{
+    background-image: url("media/badass.gif");
+}
+
+
+#cheers{
+    height: 200px;
+}
+#cheers:hover{
+    height: 200px;
+    background-image: url("media/cheers.gif");
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer{
+    width:400px;
+    margin: 30px auto;
+}
